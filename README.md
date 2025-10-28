@@ -29,7 +29,7 @@ cd -Debian-Apt-Package-Downloader-with-Dependencies
 chmod +x apt-offline-downloader.sh
 
 # 2. Launch
-./apt-offline-downloader.sh
+'./apt-offline-downloader.sh'
 
 Prompt: Enter package names to download: 
 Example: vim nginx curl python3 htop
@@ -38,11 +38,11 @@ Done! All .deb files saved in:
 downloaded_packages_20251028_153022
 
 # 3. Install
-cd downloaded_packages_20251028_153022
-sudo ./install_all.sh
+'cd downloaded_packages_20251028_153022'
+'sudo ./install_all.sh'
 
 or 
 
 cd downloaded_packages_20251028_153022
-sudo dpkg -i vim/*.deb
-sudo dpkg -i python3/*.deb
+'sudo dpkg -i vim/*.deb'
+'sudo dpkg -i python3/*.deb'

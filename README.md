@@ -1,50 +1,32 @@
-Offline .deb package collector for Debian/Ubuntu systems
-A smart, user-friendly Bash script that lets you download any APT package along with all its dependencies as .deb files — perfect for offline installations, air-gapped environments, or system recovery.
-No more missing dependencies!
-Just enter package names — get a complete, ready-to-install offline bundle.
+<p align="center">
+  <img src="https://img.shields.io/badge/Debian%20%7C%20Ubuntu-Offline%20APT%20Downloader-blue?style=for-the-badge&logo=linux&logoColor=white" alt="Debian/Ubuntu"/>
+  <br>
+  <b><i>Download any package + all dependencies as .deb — for offline installs!</i></b>
+</p>
 
-✨ Features
+---
 
-Bulk package input (space-separated)
-Recursive dependency resolution via apt-get install -s
-Automatic folder structure with timestamp
-Safe overwrite protection with confirmation
-Self-contained download.sh per package
-One-click install_all.sh to install everything offline
-Detailed logs & success/failure reports
+## ✨ Features
 
+| Feature | Description |
+|-------|-----------|
+| **Bulk input** | Enter multiple packages (space-separated) |
+| **Full dependencies** | Resolves recursively via `apt-get install -s` |
+| **Timestamped folders** | Auto-organized: `downloaded_packages_YYYYMMDD_HHMMSS` |
+| **Safe overwrite** | Asks before replacing existing folders |
+| **Per-package `download.sh`** | Self-contained, resumable |
+| **One-click `install_all.sh`** | Install everything offline with `sudo` |
+| **Detailed logs** | Success/failure report + `download.log` |
 
-🛠️ How to Use
+---
 
+## 🛠️ How to Use
+
+```bash
+# 1. Clone & run
+git clone https://github.com/takoyen2/-Debian-Apt-Package-Downloader-with-Dependencies.git
+cd -Debian-Apt-Package-Downloader-with-Dependencies
 chmod +x apt-offline-downloader.sh
 
+# 2. Launch
 ./apt-offline-downloader.sh
-
-Prompt: Enter package names to download: 
-Example: vim nginx curl python3
-
-
-All .deb files will be saved in a timestamped folder like:
-downloaded_packages_20251028_153022/
-Then install offline on any compatible system:
-
-cd downloaded_packages_20251028_153022
-sudo ./install_all.sh
-
-
-💡 Perfect For
-
-Creating offline mirrors
-Embedded systems or IoT deployments
-Disaster recovery kits
-Pentesting / CTF toolkits
-
-
-🤝 Support the Project
-Love this tool? Help keep it alive!
-<p align="center">
-  <a href="monero:48tWecqEu8Y1i8jV6f8z9x1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7?tx_description=Thanks%20for%20apt-offline-downloader">
-    <img src="https://img.shields.io/badge/Donate-Monero-orange?logo=monero&logoColor=white&style=for-the-badge" alt="Donate with Monero" />
-  </a>
-</p>
-Your support fuels more open-source tools like this!

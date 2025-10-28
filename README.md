@@ -107,5 +107,19 @@ apt-offline-downloader/
     ├── 🔧 install_all.sh          # Master installation script
     ├── 📄 download.log            # Detailed download log
     └── 📄 success_failure_report.txt
-...
 
+
+## 🤝 Support
+
+Love this tool? Help keep it alive!
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Coffee"/>
+  <img src="https://img.shields.io/badge/Monero-FF6600?style=for-the-badge&logo=monero&logoColor=white" alt="Monero"/>
+  <img src="https://img.shields.io/badge/Bitcoin-FF6600?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin"/>
+</p>
+
+**Monero (XMR):** `48jewbtxe4jU3MnzJFjTs3gvfWhZ3M7dUC...`  
+**Bitcoin (BTC):** `bc1qxy2kgdygjrsqtzq2n0yrf2493p83kk...`
+
+Your support fuels more open-source tools! 🚀

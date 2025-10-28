@@ -109,39 +109,3 @@ apt-offline-downloader/
     └── 📄 success_failure_report.txt
 ...
 
-
-
-🛠️ How It Works
-
-    Input Processing: Accepts multiple space-separated package names
-
-    Dependency Resolution: Uses apt-get install -s to find all required dependencies
-
-    Safe Directory Creation: Creates timestamped folder with confirmation
-
-    Parallel Downloads: Downloads packages and dependencies efficiently
-
-    Script Generation: Creates individual download scripts for each package
-
-    Installation Prep: Generates master installation script for offline use
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-    🐛 Report bugs
-
-    💡 Suggest new features
-
-    🔧 Submit pull requests
-
-📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-⭐ Show your support
-
-If you find this project useful, please give it a star! ⭐
-<div align="center">
-
-Made with ❤️ for the Linux community
-</div> ```

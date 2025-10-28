@@ -1,44 +1,35 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Debian/Ubuntu-APT%20Offline%20Downloader-blue?style=for-the-badge&logo=linux" alt="APT Offline Downloader"/>
+  <img src="https://img.shields.io/badge/Debian%2FUbuntu-APT%20Offline%20Downloader-blue?style=for-the-badge&logo=linux" alt="APT Offline Downloader"/>
   <br><b>Download .deb packages + all dependencies — for offline install</b>
 </p>
 
 ---
 
 ## Features
-- Multiple packages (space-separated)  
-- Full recursive dependencies (`apt-get install -s`)  
-- Timestamped folders  
-- Safe overwrite with prompt  
-- Per-package `download.sh`  
-- One-click `install_all.sh`  
-- Full logs + success/failure report  
+- **Bulk input** — space-separated packages  
+- **Full recursive dependencies** via `apt-get install -s`  
+- **Timestamped folders** — auto-organized  
+- **Safe overwrite** — confirmation prompt  
+- **Self-contained `download.sh`** — resumable  
+- **One-click `install_all.sh`** — offline install  
+- **Detailed logs** + success/failure report  
 
 ---
 
 ## How to Use
 
 ```bash
-git clone https://github.com/takoyen2/-Debian-Apt-Package-Downloader-with-Dependencies.git
-cd -Debian-Apt-Package-Downloader-with-Dependencies
+# Clone & run
+git clone https://github.com/takoyen2/Debian-Apt-Package-Downloader-with-Dependencies.git
+cd Debian-Apt-Package-Downloader-with-Dependencies
 chmod +x apt-offline-downloader.sh
 ./apt-offline-downloader.sh
 
-Enter packages: vim nginx curl python3
+Enter package names to download: vim nginx curl python3 htop
 
-Output dir: downloaded_packages_20250828_123456/
+All .deb files saved in:
+downloaded_packages_20251028_153022/
 
-```bash
-cd downloaded_packages_20250828_123456
+cd downloaded_packages_20251028_153022
 sudo ./install_all.sh
 
----
-
-## 🤝 Support the Project
-
-Love this tool? Help keep it alive!
-☕ Buy me a coffee | 💸 PayPal | [₿ BTC: bc1q...]
-Your support fuels more open-source tools like this!
-
-
----

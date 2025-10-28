@@ -26,9 +26,19 @@ chmod +x apt-offline-downloader.sh
 
 Enter packages: vim nginx curl python3
 
+Output dir: downloaded_packages_20250828_123456/
 
-Output: downloaded_packages_20250828_123456/
-
-
+```bash
 cd downloaded_packages_20250828_123456
 sudo ./install_all.sh
+
+---
+
+## 🤝 Support the Project
+
+Love this tool? Help keep it alive!
+☕ Buy me a coffee | 💸 PayPal | [₿ BTC: bc1q...]
+Your support fuels more open-source tools like this!
+
+
+---

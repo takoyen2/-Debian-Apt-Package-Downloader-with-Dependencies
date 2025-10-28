@@ -57,7 +57,7 @@ chmod +x apt-offline-downloader.sh
 ./apt-offline-downloader.sh
 
 
-### 🎯 Example Usage
+#### 🎯 Example Usage
 
 # When prompted, enter package names:
 Enter package names to download: vim nginx curl python3 htop
@@ -75,7 +75,7 @@ Enter package names to download: vim nginx curl python3 htop
 └── 📄 success_failure_report.txt
 
 
-### 💻 Offline Installation
+##### 💻 Offline Installation
 
 # Method 1: Install all packages at once
 cd downloaded_packages_20251028_153022

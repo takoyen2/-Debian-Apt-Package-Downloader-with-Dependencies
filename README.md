@@ -15,7 +15,9 @@ Detailed logs & success/failure reports
 
 
 🛠️ How to Use
+
 chmod +x apt-offline-downloader.sh
+
 ./apt-offline-downloader.sh
 
 Prompt: Enter package names to download: 
@@ -41,7 +43,7 @@ Pentesting / CTF toolkits
 🤝 Support the Project
 Love this tool? Help keep it alive!
 <p align="center">
-  <a href="monero:ВАШ_АДРЕС_ТУТ?tx_description=Support%20apt-offline-downloader">
+  <a href="monero:48tWecqEu8Y1i8jV6f8z9x1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7?tx_description=Thanks%20for%20apt-offline-downloader">
     <img src="https://img.shields.io/badge/Donate-Monero-orange?logo=monero&logoColor=white&style=for-the-badge" alt="Donate with Monero" />
   </a>
 </p>
